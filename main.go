@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io"
 	"os"
+	"strings"
 )
 
 func check(e error) {
@@ -32,16 +33,20 @@ func main() {
 	check(err)
 
 	reader := csv.NewReader(file)
+	reader.Comma = ';'
 
+	// line, err := reader.ReadAll()
+	i := 0
 	for {
 		line, err := reader.Read()
 		if err == io.EOF {
 			break
 		}
 		check(err)
-
-		fmt.Println(line[0])
+		fmt.Println(i, strings.HasPrefix(line[0], "*"))
+		i++
 	}
+	// fmt.Println(line)
 
 	defer file.Close()
 

@@ -8,6 +8,17 @@ import (
 	"strings"
 )
 
+type candidato struct {
+	//situacao: 1 - candidato eleito; 0 - Normal; -1 - Inválido
+	situacao          int
+	numero            int
+	nome              string
+	partido           string
+	coligacao         string
+	votos             int
+	percentualValidos float32
+}
+
 func check(e error) {
 	if e != nil {
 		fmt.Println(e)
@@ -37,8 +48,10 @@ func main() {
 
 	// line, err := reader.ReadAll()
 	i := 0
+
+	line, err := reader.Read() //descarta cabeçalho
 	for {
-		line, err := reader.Read()
+		line, err = reader.Read()
 		if err == io.EOF {
 			break
 		}

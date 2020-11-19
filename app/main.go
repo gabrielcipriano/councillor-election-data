@@ -1,12 +1,11 @@
 package main
 
-import "github.com/gabrielcipriano/sistema-eleitoral-vereadores/csvreader"
+import (
+	"fmt"
 
-// func check(e error) {
-// 	if e != nil {
-// 		fmt.Println(e)
-// 	}
-// }
+	"github.com/gabrielcipriano/sistema-eleitoral-vereadores/candidato"
+	"github.com/gabrielcipriano/sistema-eleitoral-vereadores/csvreader"
+)
 
 // Não é necessário produzir todos os 8 relatórios, apenas os relatórios
 // “Número de vagas”, “Total de votos nominais” e mais 2 outros, à escolha;
@@ -15,6 +14,10 @@ import "github.com/gabrielcipriano/sistema-eleitoral-vereadores/csvreader"
 // • Candidatos mais votados dentro do número de vagas;
 
 func main() {
-	csvreader.Read("../divulga20.csv")
+	var candidatos []candidato.Candidato
+	candidatos = csvreader.Read("../divulga20.csv")
+	for i, c := range candidatos {
+		fmt.Printf("%d - %s\n", i+1, candidato.Stringify(&c))
+	}
 
 }

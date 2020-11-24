@@ -1,6 +1,29 @@
 package candidato
 
-import "strconv"
+import (
+	"sort"
+	"strconv"
+)
+
+// Sorting Candidatos by number of votes
+
+type byVotes []Candidato
+
+func (candidatos byVotes) Len() int {
+	return len(candidatos)
+}
+func (candidatos byVotes) Swap(i, j int) {
+	candidatos[i], candidatos[j] = candidatos[j], candidatos[i]
+}
+func (candidatos byVotes) Less(i, j int) bool {
+	return candidatos[i].Votos > candidatos[j].Votos
+}
+
+//SortByVotes Ordena uma lista de Candidatos por número de votos
+func SortByVotes(candidatos []Candidato) []Candidato {
+	sort.Sort(byVotes(candidatos))
+	return candidatos
+}
 
 //Situacao enumera a situacao de um candidato: 0 = Eleito, 1 = Normal ou 2 = Invalido
 type Situacao int
@@ -25,30 +48,32 @@ func (s Situacao) toString() string {
 
 //Candidato é a estrutura que guarda todas as informações pertinentes de um candidato
 type Candidato struct {
-	situacao  Situacao
+	Situacao  Situacao
 	numero    int
-	nome      string
+	Nome      string
 	partido   string
 	coligacao string
-	votos     int
+	Votos     int
 }
 
-// Stringify retorna uma versão printável da struct Candidato
-func Stringify(c *Candidato) string {
-	s := c.nome + " (" + c.partido + ", " + strconv.Itoa(c.votos) + ") - "
-	s = s + "Coligação: " + c.coligacao + " - Situação: " + c.situacao.toString()
+// ToString retorna uma versão printável da struct Candidato
+func (c *Candidato) ToString() string {
+	s := c.Nome + " (" + c.partido + ", " + strconv.Itoa(c.Votos) + ")"
+	if c.coligacao != "" {
+		s = s + " - Coligação: " + c.coligacao
+	}
 	return s
 }
 
 //New Candidato
 func New(situacao Situacao, num int, nome string, partido string, colig string, votos int) Candidato {
 	c := Candidato{
-		situacao:  situacao,
+		Situacao:  situacao,
 		numero:    num,
-		nome:      nome,
+		Nome:      nome,
 		partido:   partido,
 		coligacao: colig,
-		votos:     votos,
+		Votos:     votos,
 	}
 	return c
 }

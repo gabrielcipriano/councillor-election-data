@@ -9,6 +9,7 @@ import (
 	"strings"
 
 	"github.com/gabrielcipriano/sistema-eleitoral-vereadores/candidato"
+	elec "github.com/gabrielcipriano/sistema-eleitoral-vereadores/eleicao"
 	"github.com/gabrielcipriano/sistema-eleitoral-vereadores/utils"
 )
 
@@ -19,8 +20,6 @@ const (
 
 // No csv o partido é separado da coligação por um " - "
 var /* const */ separadorPartidoColigPattern = regexp.MustCompile(` - `)
-
-//
 
 //constantes para nomear os indexes das colunas do arquivo, indo de 0 a 5
 const (
@@ -37,7 +36,7 @@ func descartaCabecalho(reader *csv.Reader) {
 	utils.CheckError(err)
 }
 
-// Retorna a situação de um candidato de acordo com o prefixo, isso é, "*": Eleito; "#": Invalido; Qualquer outro prefixo: Normal
+// Retorna a situação de um candidato de acordo com o prefixo, isso é, "*": Eleito; "#": Invalido; Qualquer outro: Normal
 func getSituacaoFromField(situacaoField string) candidato.Situacao {
 	switch {
 	case strings.HasPrefix(situacaoField, "*"):
@@ -49,8 +48,8 @@ func getSituacaoFromField(situacaoField string) candidato.Situacao {
 	}
 }
 
-func getNumVotosFromField(stringNumVotos string) int {
-	var numVotos int = utils.IntFromHumanRedableNumber(stringNumVotos)
+func getNumVotosFromField(numVotosField string) int {
+	var numVotos int = utils.IntFromHumanRedableNumber(numVotosField)
 	return numVotos
 }
 
@@ -85,8 +84,7 @@ func candidatoFromLine(line []string) candidato.Candidato {
 	return candidato
 }
 
-func candidatosFromReaderLines(reader *csv.Reader) []candidato.Candidato {
-	var candidatos []candidato.Candidato
+func candidatosFromReaderLines(reader *csv.Reader, eleicao *elec.Eleicao) {
 	for {
 		line, err := reader.Read()
 		if err == io.EOF {
@@ -95,15 +93,12 @@ func candidatosFromReaderLines(reader *csv.Reader) []candidato.Candidato {
 		utils.CheckError(err)
 
 		c := candidatoFromLine(line)
-
-		candidatos = append(candidatos, c)
+		eleicao.AddCandidato(c)
 	}
-
-	return candidatos
 }
 
 //Read lê o arquivo CSV do parâmetro e retorna uma lista dos objetos 'Candidato' nesse arquivo.
-func Read(filePath string) []candidato.Candidato {
+func Read(filePath string, eleicao *elec.Eleicao) {
 	file, err := os.Open(filePath)
 	utils.CheckError(err)
 
@@ -112,9 +107,7 @@ func Read(filePath string) []candidato.Candidato {
 
 	descartaCabecalho(reader)
 
-	candidatos := candidatosFromReaderLines(reader)
+	candidatosFromReaderLines(reader, eleicao)
 
 	defer file.Close()
-
-	return candidatos
 }

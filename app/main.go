@@ -54,7 +54,7 @@ func main() {
 	//TODO: Receber nome do arquivo como paramentro do programa
 
 	eleicao := elec.New()
-	csvreader.Read("../divulga.csv", &eleicao)
+	csvreader.Read("../sample-csv-files/divulga.csv", &eleicao)
 	// for i, cand := range eleicao.Candidatos {
 	// 	fmt.Printf("%d - %s\n", i+1, cand.ToString())
 	// }

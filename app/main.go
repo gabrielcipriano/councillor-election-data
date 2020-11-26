@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 
 	"github.com/gabrielcipriano/sistema-eleitoral-vereadores/candidato"
 	"github.com/gabrielcipriano/sistema-eleitoral-vereadores/csvreader"
@@ -51,13 +52,15 @@ func imprimeCandidatosBeneficiados(eleicao *elec.Eleicao) {
 }
 
 func main() {
-	//TODO: Receber nome do arquivo como paramentro do programa
+	if len(os.Args) == 1 {
+		fmt.Println("arquivo como argumento está faltando.")
+		println("execute da forma: ./<programa> caminho/para/arquivo.csv")
+		os.Exit(1)
+	}
+	filepath := os.Args[1]
 
 	eleicao := elec.New()
-	csvreader.Read("../sample-csv-files/divulga.csv", &eleicao)
-	// for i, cand := range eleicao.Candidatos {
-	// 	fmt.Printf("%d - %s\n", i+1, cand.ToString())
-	// }
+	csvreader.Read(filepath, &eleicao)
 
 	imprimeNumDeVagas(&eleicao)
 

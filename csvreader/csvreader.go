@@ -100,6 +100,7 @@ func candidatosFromReaderLines(reader *csv.Reader, eleicao *elec.Eleicao) {
 //Read lê o arquivo CSV do parâmetro e retorna uma lista dos objetos 'Candidato' nesse arquivo.
 func Read(filePath string, eleicao *elec.Eleicao) {
 	file, err := os.Open(filePath)
+	defer file.Close()
 	utils.CheckError(err)
 
 	reader := csv.NewReader(file)
@@ -108,6 +109,4 @@ func Read(filePath string, eleicao *elec.Eleicao) {
 	descartaCabecalho(reader)
 
 	candidatosFromReaderLines(reader, eleicao)
-
-	defer file.Close()
 }

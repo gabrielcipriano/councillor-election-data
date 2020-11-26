@@ -1,0 +1,55 @@
+Número de vagas: 17
+
+Total de votos nominais: 206359
+
+Vereadores eleitos:
+1 - ARNALDINHO BORGO (PMDB, 5392 votos) - Coligação: DEM / PMDB / SD
+2 - IVAN CARLINI (DEM, 4726 votos) - Coligação: DEM / PMDB / SD
+3 - RICARDO CHIABAI (PPS, 4268 votos) - Coligação: PDT / PSB / PPS
+4 - ROGERIO CARDOSO (DEM, 3863 votos) - Coligação: DEM / PMDB / SD
+5 - ANADELSO PEREIRA (PSDC, 3135 votos) - Coligação: PRB / PSDC / REDE
+6 - OSVALDO MATURANO (PRB, 2969 votos) - Coligação: PRB / PSDC / REDE
+7 - BRUNO LORENZUTTI (PTN, 2831 votos)
+8 - ADEILSON HORTI SUPER (PSD, 2827 votos) - Coligação: PSD / PSC / PV
+9 - REGINALDO ALMEIDA (PSC, 2769 votos) - Coligação: PSD / PSC / PV
+10 - TIA NILMA (PRP, 2419 votos)
+11 - VALDIR DO RESTAURANTE (PT do B, 2346 votos) - Coligação: PP / PT do B / PC do B / PROS
+12 - DONA ARLETE (PSL, 2183 votos) - Coligação: PSL / PMB
+13 - MIRIM MONTEBELLER (PTN, 2174 votos)
+14 - HELIOSANDRO (PR, 2053 votos) - Coligação: PSDB / PR
+15 - PATRICIA CRIZANTO (PMB, 2007 votos) - Coligação: PSL / PMB
+16 - ZÉ DO RENASCER (PTC, 1941 votos) - Coligação: PTB / PTC / PEN
+17 - PM CHICO SIQUEIRA (PHS, 1585 votos) - Coligação: PHS / PMN
+
+Candidatos mais votados (em ordem decrescente de votação e respeitando número de vagas):
+1 - ARNALDINHO BORGO (PMDB, 5392 votos) - Coligação: DEM / PMDB / SD
+2 - IVAN CARLINI (DEM, 4726 votos) - Coligação: DEM / PMDB / SD
+3 - RICARDO CHIABAI (PPS, 4268 votos) - Coligação: PDT / PSB / PPS
+4 - ROGERIO CARDOSO (DEM, 3863 votos) - Coligação: DEM / PMDB / SD
+5 - JOEL RANGEL (PMDB, 3609 votos) - Coligação: DEM / PMDB / SD
+6 - MARCOS RODRIGUES (DEM, 3310 votos) - Coligação: DEM / PMDB / SD
+7 - ANADELSO PEREIRA (PSDC, 3135 votos) - Coligação: PRB / PSDC / REDE
+8 - OSVALDO MATURANO (PRB, 2969 votos) - Coligação: PRB / PSDC / REDE
+9 - BRUNO LORENZUTTI (PTN, 2831 votos)
+10 - ADEILSON HORTI SUPER (PSD, 2827 votos) - Coligação: PSD / PSC / PV
+11 - REGINALDO ALMEIDA (PSC, 2769 votos) - Coligação: PSD / PSC / PV
+12 - TIA NILMA (PRP, 2419 votos)
+13 - VALDIR DO RESTAURANTE (PT do B, 2346 votos) - Coligação: PP / PT do B / PC do B / PROS
+14 - ZÉ FERREIRA DA MATERNIDADE (PSC, 2198 votos) - Coligação: PSD / PSC / PV
+15 - DONA ARLETE (PSL, 2183 votos) - Coligação: PSL / PMB
+16 - MIRIM MONTEBELLER (PTN, 2174 votos)
+17 - JOÃO ARTEM (PSB, 2087 votos) - Coligação: PDT / PSB / PPS
+
+Teriam sido eleitos se a votação fosse majoritária, e não foram eleitos:
+(com sua posição no ranking de mais votados)
+5 - JOEL RANGEL (PMDB, 3609 votos) - Coligação: DEM / PMDB / SD
+6 - MARCOS RODRIGUES (DEM, 3310 votos) - Coligação: DEM / PMDB / SD
+14 - ZÉ FERREIRA DA MATERNIDADE (PSC, 2198 votos) - Coligação: PSD / PSC / PV
+17 - JOÃO ARTEM (PSB, 2087 votos) - Coligação: PDT / PSB / PPS
+
+Eleitos, que se beneficiaram do sistema proporcional:
+(com sua posição no ranking de mais votados)
+18 - HELIOSANDRO (PR, 2053 votos) - Coligação: PSDB / PR
+19 - PATRICIA CRIZANTO (PMB, 2007 votos) - Coligação: PSL / PMB
+23 - ZÉ DO RENASCER (PTC, 1941 votos) - Coligação: PTB / PTC / PEN
+32 - PM CHICO SIQUEIRA (PHS, 1585 votos) - Coligação: PHS / PMN

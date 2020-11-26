@@ -58,7 +58,7 @@ type Candidato struct {
 
 // ToString retorna uma versão printável da struct Candidato
 func (c *Candidato) ToString() string {
-	s := c.Nome + " (" + c.partido + ", " + strconv.Itoa(c.Votos) + ")"
+	s := c.Nome + " (" + c.partido + ", " + strconv.Itoa(c.Votos) + " votos)"
 	if c.coligacao != "" {
 		s = s + " - Coligação: " + c.coligacao
 	}

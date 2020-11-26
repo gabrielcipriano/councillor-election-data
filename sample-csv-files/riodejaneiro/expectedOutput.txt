@@ -1,0 +1,139 @@
+Número de vagas: 51
+
+Total de votos nominais: 2657631
+
+Vereadores eleitos:
+1 - CARLOS BOLSONARO (PSC, 106657 votos)
+2 - TARCÍSIO MOTTA (PSOL, 90473 votos) - Coligação: PSOL / PCB
+3 - CESAR MAIA (DEM, 71468 votos)
+4 - ROSA FERNANDES (PMDB, 57868 votos)
+5 - MARIELLE FRANCO (PSOL, 46502 votos) - Coligação: PSOL / PCB
+6 - JUNIOR DA LUCINHA (PMDB, 45124 votos)
+7 - VERA LINS (PP, 36117 votos)
+8 - JOÃO MENDES DE JESUS (PRB, 31516 votos)
+9 - TERESA BERGHER (PSDB, 30566 votos) - Coligação: PSDB / PPS
+10 - LEANDRO LYRA (NOVO, 29217 votos)
+11 - CARLO CAIADO (DEM, 28122 votos)
+12 - JORGE FELIPPE (PMDB, 28104 votos)
+13 - JAIRINHO (PMDB, 26047 votos)
+14 - THIAGO K. RIBEIRO (PMDB, 24900 votos)
+15 - ALEXANDRE ISQUIERDO (DEM, 24701 votos)
+16 - MARCELINO D'ALMEIDA (PP, 24196 votos)
+17 - CHIQUINHO BRAZÃO (PMDB, 23923 votos)
+18 - TÂNIA BASTOS' (PRB, 22930 votos)
+19 - RAFAEL ALOISIO FREITAS (PMDB, 22897 votos)
+20 - BISPO INALDO SILVA (PRB, 22735 votos)
+21 - ZICO (PTB, 21565 votos)
+22 - WILLIAN COELHO (PMDB, 20678 votos)
+23 - VERÔNICA COSTA (PMDB, 19946 votos)
+24 - DR. CARLOS EDUARDO (SD, 19822 votos) - Coligação: SD / PSL
+25 - REIMONT (PT, 19626 votos) - Coligação: PT / PC do B
+26 - RENATO CINCO (PSOL, 17162 votos) - Coligação: PSOL / PCB
+27 - LUCIANA NOVAES (PT, 16679 votos) - Coligação: PT / PC do B
+28 - MARCELO ARAR (PTB, 16230 votos)
+29 - VAL (PEN, 15388 votos) - Coligação: PRTB / PROS / PEN
+30 - PAULO MESSINA (PROS, 15346 votos) - Coligação: PRTB / PROS / PEN
+31 - ROGERIO ROCAL (PTB, 15055 votos)
+32 - DR. JOÃO RICARDO (PMDB, 14994 votos)
+33 - RENATO MOURA (PDT, 13572 votos)
+34 - MARCELLO SICILIANO (PHS, 13553 votos)
+35 - DRº JORGE MANAIA (SD, 13249 votos) - Coligação: SD / PSL
+36 - PAULO PINHEIRO (PSOL, 13141 votos) - Coligação: PSOL / PCB
+37 - JONES MOURA (PSD, 12722 votos)
+38 - DR GILBERTO (PMN, 12165 votos)
+39 - FERNANDO WILLIAM (PDT, 12055 votos)
+40 - LEONEL BRIZOLA NETO (PSOL, 11087 votos) - Coligação: PSOL / PCB
+41 - ELISEU KESSLER (PSD, 10777 votos)
+42 - FELIPE MICHEL (PSDB, 10300 votos) - Coligação: PSDB / PPS
+43 - CLÁUDIO CASTRO (PSC, 10262 votos)
+44 - PROFESSOR ADALMIR (PSDB, 8804 votos) - Coligação: PSDB / PPS
+45 - PROFESSOR CELIO LUPPARELLI (DEM, 8692 votos)
+46 - LUIZ CARLOS RAMOS FILHO (PTN, 8618 votos)
+47 - JAIR DA MENDES GOMES (PMN, 8112 votos)
+48 - ZICO BACANA (PHS, 7932 votos)
+49 - OTONI DE PAULA JR (PSC, 7801 votos)
+50 - DAVID MIRANDA (PSOL, 7012 votos) - Coligação: PSOL / PCB
+51 - ITALO CIBA (PT do B, 6023 votos) - Coligação: PT do B / PTC
+
+Candidatos mais votados (em ordem decrescente de votação e respeitando número de vagas):
+1 - CARLOS BOLSONARO (PSC, 106657 votos)
+2 - TARCÍSIO MOTTA (PSOL, 90473 votos) - Coligação: PSOL / PCB
+3 - CESAR MAIA (DEM, 71468 votos)
+4 - ROSA FERNANDES (PMDB, 57868 votos)
+5 - MARIELLE FRANCO (PSOL, 46502 votos) - Coligação: PSOL / PCB
+6 - JUNIOR DA LUCINHA (PMDB, 45124 votos)
+7 - VERA LINS (PP, 36117 votos)
+8 - JOÃO MENDES DE JESUS (PRB, 31516 votos)
+9 - TERESA BERGHER (PSDB, 30566 votos) - Coligação: PSDB / PPS
+10 - LEANDRO LYRA (NOVO, 29217 votos)
+11 - CARLO CAIADO (DEM, 28122 votos)
+12 - JORGE FELIPPE (PMDB, 28104 votos)
+13 - JAIRINHO (PMDB, 26047 votos)
+14 - THIAGO K. RIBEIRO (PMDB, 24900 votos)
+15 - ALEXANDRE ISQUIERDO (DEM, 24701 votos)
+16 - MARCELINO D'ALMEIDA (PP, 24196 votos)
+17 - CHIQUINHO BRAZÃO (PMDB, 23923 votos)
+18 - TÂNIA BASTOS' (PRB, 22930 votos)
+19 - RAFAEL ALOISIO FREITAS (PMDB, 22897 votos)
+20 - BISPO INALDO SILVA (PRB, 22735 votos)
+21 - ZICO (PTB, 21565 votos)
+22 - WILLIAN COELHO (PMDB, 20678 votos)
+23 - VERÔNICA COSTA (PMDB, 19946 votos)
+24 - DR. CARLOS EDUARDO (SD, 19822 votos) - Coligação: SD / PSL
+25 - REIMONT (PT, 19626 votos) - Coligação: PT / PC do B
+26 - RENATO CINCO (PSOL, 17162 votos) - Coligação: PSOL / PCB
+27 - LUCIANA NOVAES (PT, 16679 votos) - Coligação: PT / PC do B
+28 - MARCELO ARAR (PTB, 16230 votos)
+29 - RENATA GUERRA (NOVO, 16064 votos)
+30 - VAL (PEN, 15388 votos) - Coligação: PRTB / PROS / PEN
+31 - PAULO MESSINA (PROS, 15346 votos) - Coligação: PRTB / PROS / PEN
+32 - ROGERIO ROCAL (PTB, 15055 votos)
+33 - DR. JOÃO RICARDO (PMDB, 14994 votos)
+34 - ÁTILA A. NUNES (PMDB, 14903 votos)
+35 - JOÃO CABRAL (PMDB, 14152 votos)
+36 - PROFESSOR UOSTON (PMDB, 13985 votos)
+37 - EDSON ZANATA (PT, 13668 votos) - Coligação: PT / PC do B
+38 - RENATO MOURA (PDT, 13572 votos)
+39 - MARCELLO SICILIANO (PHS, 13553 votos)
+40 - ALEX COSTA (PTB, 13272 votos)
+41 - DRº JORGE MANAIA (SD, 13249 votos) - Coligação: SD / PSL
+42 - PAULO PINHEIRO (PSOL, 13141 votos) - Coligação: PSOL / PCB
+43 - ELTON BABÚ (PT, 12924 votos) - Coligação: PT / PC do B
+44 - S FERRAZ (PMDB, 12782 votos)
+45 - JONES MOURA (PSD, 12722 votos)
+46 - DR GILBERTO (PMN, 12165 votos)
+47 - FERNANDO WILLIAM (PDT, 12055 votos)
+48 - SOLANGE AMARAL (PMDB, 11792 votos)
+49 - LEILA DO FLAMENGO (PMDB, 11548 votos)
+50 - DR. EDUARDO MOURA (PMDB, 11470 votos)
+51 - DEL (PR, 11088 votos)
+
+Teriam sido eleitos se a votação fosse majoritária, e não foram eleitos:
+(com sua posição no ranking de mais votados)
+29 - RENATA GUERRA (NOVO, 16064 votos)
+34 - ÁTILA A. NUNES (PMDB, 14903 votos)
+35 - JOÃO CABRAL (PMDB, 14152 votos)
+36 - PROFESSOR UOSTON (PMDB, 13985 votos)
+37 - EDSON ZANATA (PT, 13668 votos) - Coligação: PT / PC do B
+40 - ALEX COSTA (PTB, 13272 votos)
+43 - ELTON BABÚ (PT, 12924 votos) - Coligação: PT / PC do B
+44 - S FERRAZ (PMDB, 12782 votos)
+48 - SOLANGE AMARAL (PMDB, 11792 votos)
+49 - LEILA DO FLAMENGO (PMDB, 11548 votos)
+50 - DR. EDUARDO MOURA (PMDB, 11470 votos)
+51 - DEL (PR, 11088 votos)
+
+Eleitos, que se beneficiaram do sistema proporcional:
+(com sua posição no ranking de mais votados)
+52 - LEONEL BRIZOLA NETO (PSOL, 11087 votos) - Coligação: PSOL / PCB
+53 - ELISEU KESSLER (PSD, 10777 votos)
+55 - FELIPE MICHEL (PSDB, 10300 votos) - Coligação: PSDB / PPS
+56 - CLÁUDIO CASTRO (PSC, 10262 votos)
+63 - PROFESSOR ADALMIR (PSDB, 8804 votos) - Coligação: PSDB / PPS
+65 - PROFESSOR CELIO LUPPARELLI (DEM, 8692 votos)
+67 - LUIZ CARLOS RAMOS FILHO (PTN, 8618 votos)
+71 - JAIR DA MENDES GOMES (PMN, 8112 votos)
+73 - ZICO BACANA (PHS, 7932 votos)
+74 - OTONI DE PAULA JR (PSC, 7801 votos)
+81 - DAVID MIRANDA (PSOL, 7012 votos) - Coligação: PSOL / PCB
+97 - ITALO CIBA (PT do B, 6023 votos) - Coligação: PT do B / PTC

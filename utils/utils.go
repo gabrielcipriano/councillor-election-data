@@ -6,8 +6,6 @@ import (
 	"strconv"
 )
 
-var dotPattern = regexp.MustCompile(`\.`)
-
 // CheckError prints an error, if it exists
 func CheckError(e error) {
 	if e != nil {
@@ -15,6 +13,8 @@ func CheckError(e error) {
 		panic(e)
 	}
 }
+
+var dotPattern = regexp.MustCompile(`\.`)
 
 // IntFromHumanRedableNumber "3.698" -> 3978
 func IntFromHumanRedableNumber(humanNumberString string) int {

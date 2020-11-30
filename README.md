@@ -2,6 +2,7 @@
 Ferramenta escrita em GO para gerar relatórios de eleições de vereadores.
 
 Relatório:
+
 Total de vagas / total de candidatos eleitos;
 
 Total de votos nominais;

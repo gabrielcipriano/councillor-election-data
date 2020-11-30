@@ -35,4 +35,9 @@ Para executar:
 
 - Lista dos candidatos que teriam sido eleitos se a votação fosse majoritária, e não foram eleitos;
 
-- Lista dos candidatos eleitos que se beneficiaram do sistema proporcional;s
+- Lista dos candidatos eleitos que se beneficiaram do sistema proporcional;
+
+### Arquivos de entrada:
+Os arquivos **.csv** de entrada são dados públicos fornecidos e formatados pela iniciativa DIVULGA do Tribunal Superior Eleitoral.
+
+Na pasta `sample-csv-files` possui dados das eleições para vereadores de 2016 das cidades Vitoria, Vila Velha e Rio de Janeiro, bem como os arquivos `expectedOutput.txt` com a saída esperada para cada uma dessas cidades.

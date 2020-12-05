@@ -48,22 +48,7 @@ func escreveCandidatosBeneficiados(w *bufio.Writer, eleicao *elec.Eleicao) {
 	}
 }
 
-func main() {
-	if len(os.Args) == 1 {
-		fmt.Println("arquivo como argumento está faltando.")
-		fmt.Printf("execute da forma: %s caminho/para/arquivo.csv", os.Args[0])
-		os.Exit(1)
-	}
-	filepath := os.Args[1]
-
-	eleicao := elec.New()
-	csvreader.Read(filepath, &eleicao)
-
-	//Imprimindo o relatorio no arquivo saida.txt
-	file, err := os.Create("saida.txt")
-	utils.CheckError(err)
-	defer file.Close()
-
+func escreveNoArquivo(eleicao elec.Eleicao, file *os.File) {
 	w := bufio.NewWriter(file)
 
 	escreveNumDeVagas(w, &eleicao)
@@ -88,6 +73,24 @@ func main() {
 	escreveCandidatosBeneficiados(w, &eleicao)
 
 	w.Flush()
+}
+
+func main() {
+	if len(os.Args) == 1 {
+		fmt.Println("arquivo como argumento está faltando.")
+		fmt.Printf("execute da forma: %s caminho/para/arquivo.csv", os.Args[0])
+		os.Exit(1)
+	}
+	filepath := os.Args[1]
+
+	eleicao := elec.New()
+	csvreader.Read(filepath, &eleicao)
+
+	//Imprimindo o relatorio no arquivo saida.txt
+	file, err := os.Create("saida.txt")
+	utils.CheckError(err)
+	defer file.Close()
+	escreveNoArquivo(eleicao, file)
 
 	fmt.Println("Arquivo \"saida.txt\" criado/sobrescrito")
 

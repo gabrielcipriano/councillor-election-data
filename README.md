@@ -1,43 +1,44 @@
-# sistema-eleitoral-vereadores
-Ferramenta escrita em GO para gerar relatórios de eleições de vereadores.
+# councillor-election-data
+Program wrote in Golang to generate a report about local Brazilian Councillor election.
 
-## Instalação e execução:
+## Installation:
 
-#### Opção 1 - Com Makefile:
-Baixe o arquivo .zip do repositório e extraia-o
-##### Compilando:
+#### Option 1 - with Makefile:
+Download the .zip from repository and extract it.
+##### Compiling:
 ```make```
-ou
+or
 ```make build```
-##### Executando:
-```./vereadores caminho/para/arquivo.csv```
+##### Running:
+```./vereadores path/to/file.csv```
 
-#### Opção 2 - Clonando o repositório git diretamente para seu GOPATH:
-##### Baixando:
-```go get 'github.com/gabrielcipriano/sistema-eleitoral-vereadores'```
-##### Instalando:
-```go install github.com/gabrielcipriano/sistema-eleitoral-vereadores```
-##### Executando:
-O arquivo executável deve estar na pasta bin do seu GOPATH, isso é, `$USER/go/bin/`
-Para executar:
-```./sistema-eleitoral-vereadores caminho/para/arquivo.csv ```
+#### Option 2 - Cloning the git repository directly to your GOPATH:
+##### Download it:
+```go get 'github.com/gabrielcipriano/councillor-election-data'```
+##### Install it:
+```go install github.com/gabrielcipriano/councillor-election-data```
+##### Execute it:
+The executation file should be in the `bin` folder of your GOPATH, that is, `$USER/go/bin/`
+To run it:
+```./councillor-election-data path/to/the/file.csv ```
 
-##### Ao fim da execução, o arquivo `saida.txt` será criado no diretorio onde o programa foi executado.
+##### At the end of the execution the file `saida.txt` (`exit.txt`) will be generated on the program folder.
 
-#### Itens do relatório de saída:
+#### Information in the report:
 
-- Total de vagas / total de candidatos eleitos;
-- Total de votos nominais;
+- Total vacancies / Total of ellected councillors;
 
-- Lista dos vereadores eleitos;
+- Total nominal votes;
 
-- Lista dos candidatos mais votados; (respeitando número de vagas)
+- List of elected Councillors;
 
-- Lista dos candidatos que teriam sido eleitos se a votação fosse majoritária, e não foram eleitos;
+- List of most voted candidates; (respecting the number of vacancies)
 
-- Lista dos candidatos eleitos que se beneficiaram do sistema proporcional;
+- List of candidates who would be ellected if the election was majoritary, but wasn't.
 
-### Arquivos de entrada:
-Os arquivos **.csv** de entrada são dados públicos fornecidos e formatados pela iniciativa DIVULGA do Tribunal Superior Eleitoral.
+- List of ellected candidates who took advantage on the proportional system.
 
-Na pasta `sample-csv-files` possui dados das eleições para vereadores de 2016 das cidades Vitoria, Vila Velha e Rio de Janeiro, bem como os arquivos `expectedOutput.txt` com a saída esperada para cada uma dessas cidades.
+### Entry files:
+The **.csv** entry file are public data obteined by the tool 'DIVULGA' provided by the Superior Electoral Court.
+
+On the folder `sample-csv-files` there is 2016 election data  from the cities of Rio de Janeiro, Vitoria and Vila Velha, as well as `expectedOutput.txt` files with the expected output.
